@@ -1,0 +1,277 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+ul
+{
+    padding: 0;
+    list-style: none;
+}
+ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #1ed760;
+    cursor: pointer;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav 
+{
+    opacity: 0.9;
+background-color: rgba(0, 0, 0, 0.6);
+height: 80px;
+position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav .container
+{
+    z-index: 1;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .container .img-container
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+}
+.nav-links ul
+{
+    display: flex;
+}
+.nav-links ul li
+{
+    
+    font-size: 16px;
+     font-weight: 700;
+     margin-right: 30px;
+}
+.nav-links .first-3-links a
+{
+
+font-weight: 700;
+}
+.nav-links .last-2-links a
+{
+    color: #d9dadc;
+    
+   
+}
+section
+{
+    margin-top: 130px;
+}
+.covid-19-music-relief
+{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.covid-19-music-relief .tag1
+{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 4px;
+    color: #2D46B9;
+    font-weight: 700;
+    
+}
+.covid-19-music-relief .tag2
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: unset;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.banner
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 713px;
+    background-color: #f037a5;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-60%, #f037a5),
+    color-stop(140%, #fae62d)
+  );
+}
+.banner .hero-img
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  width: 100%;
+
+}
+.banner .slogan
+{
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+.banner .slogan h1
+{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-top: 0;
+    
+    margin-bottom: 28px;
+
+    
+}
+.banner .slogan h4
+{
+    
+    line-height: 1.1;
+    margin-bottom: 50px;
+
+    
+}
+.banner .slogan a
+{
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    -webkit-transition-property: background-color, border-color, color, -webkit-box-shadow, -webkit-filter;
+    transition-property: background-color, border-color, color, -webkit-box-shadow, -webkit-filter;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-property: background-color, border-color, color, box-shadow, filter, -webkit-box-shadow, -webkit-filter;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    background-color: #1DB954;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.banner .slogan a:hover
+{
+    color: white;
+    background-color: #1ED760
+}
+footer
+{
+    background-color: black;
+}
+footer .container 
+{
+   
+width: 60%;
+margin: 0 auto;
+color: white;
+padding: 80px 0 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start
+}
+footer .container .logo .img-container
+{
+width: 130px;
+height: 40px;
+}
+footer .container .top-links
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 57px;
+    margin-right: 149px;
+}
+.top-links ul li
+{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.top-links 
+{
+    color: yellow;
+}
+footer .container .social-icons i
+{
+    width: 24px;
+    height: 24px;
+    font-size: 25px;
+    background-color: #222326;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
+}
+footer .container .social-icons i:hover
+{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer .container .country
+{
+width: 100%;
+display: flex;
+    justify-content: flex-end;
+}
+footer .container .country a
+{
+    font-size: 12px;
+    color: #919496;
+    text-decoration: none;
+}
+footer .container .bottom-links
+{
+    width: 100%;
+    font-size: 12px;
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .bottom-links ul
+{
+    display: flex;
+}
+footer .container .bottom-links ul li
+{
+    margin-right: 20px;
+}
+footer .container .bottom-links ul li a
+{
+  
+    font-size: 12px;
+    color: #919496;
+}
