@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Landing Page</title>
     <script src="https://kit.fontawesome.com/a8c4c24db6.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
     <nav>
         <div class="container">
             <div class="img-container">
@@ -37,71 +43,73 @@
         <div class="container">
             <div class="covid-19-music-relief">
                 <p class="tag1">COVID-19 Music Relief</p>
-                <p class="tag2">Help us support the global music community in an unprecedented crisis.
+                <p class="tag2">Help us support the global music community in an unprecedented crisis. <a href="#"
+                        style="text-decoration: underline;color: black;">Learn more</a>
                 </p>
 
 
             </div>
             <div class="banner">
                 <div class="hero-img">
-                    
+
                 </div>
-                <div class="slogan">
-                    <h1>Music for everyone.</h1>
+                <div data-aos="zoom-in" class="slogan">
+                    <h1 class="animated infinite bounce ">Music for everyone.</h1>
                     <h4>Millions of songs. No credit card needed.</h4>
-                    <a class="get-spotify-btn">GET SPOTIFY FREE</a>
+                    <a class="get-spotify-btn animated infinite bounce delay-2s">GET SPOTIFY FREE</a>
                 </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
-        <div class="logo">
-            <div class="img-container">
-                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
-                    alt="logo">
+            <div class="logo">
+                <div class="img-container">
+                    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
+                        alt="logo">
+                </div>
             </div>
-        </div>
-        <div class="top-links">
-            <ul>
-                <li><a href="#" style="color: #919496;font-size: 12px;">COMPANY</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">For the Record</a></li>
-            </ul>
-            <ul>
-                <li><a href="#"style="color: #919496;font-size: 12px">COMMUNITIES</a></li>
-                <li><a href="#">For Arties</a></li>
-                <li><a href="#">Developers</a></li>
-                <li><a href="#">Brands</a></li>
-                <li><a href="#">Investor</a></li>
-                <li><a href="#">Vendors</a></li>
-            </ul>
-            <ul>
-                <li><a href="#"style="color: #919496;font-size: 12px">USEFUL LINKS</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Web Player</a></li>
-                <li><a href="#">Free Mobile App</a></li>
-            </ul>
-        </div>
-        <div class="social-icons">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-        </div>
-        <div class="country">
-            <a href="#">Vietnam(English)</a><img src="https://country-flags.scdn.co/flags/vn.svg" alt="" width="20px" class="svelte-11cxugd">
-        </div>
-        <div class="bottom-links">
-            <ul>
-                <li><a href="">Legal</a></li>
-                <li><a href="">Privacy Center</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Cookies</a></li>
-                <li><a href="">About Ads</a></li>
-            </ul>
-            <p>@ 2020 Spotify AB</p>
-        </div>
+            <div class="top-links">
+                <ul>
+                    <li><a href="#" style="color: #919496;font-size: 12px;">COMPANY</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">For the Record</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #919496;font-size: 12px">COMMUNITIES</a></li>
+                    <li><a href="#">For Arties</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Investor</a></li>
+                    <li><a href="#">Vendors</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #919496;font-size: 12px">USEFUL LINKS</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Web Player</a></li>
+                    <li><a href="#">Free Mobile App</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="country">
+                <a href="#">Vietnam(English)</a><img src="https://country-flags.scdn.co/flags/vn.svg" alt=""
+                    width="20px" class="svelte-11cxugd">
+            </div>
+            <div class="bottom-links">
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Privacy Center</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">About Ads</a></li>
+                </ul>
+                <p>@ 2020 Spotify AB</p>
+            </div>
         </div>
     </footer>
 </body>
