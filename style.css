@@ -78,6 +78,13 @@ font-weight: 700;
     
    
 }
+.nav-links .last-2-links a:hover
+{
+    color: #1ed760;
+    cursor: pointer;
+    
+   
+}
 section
 {
     margin-top: 130px;
